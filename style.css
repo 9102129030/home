@@ -1,0 +1,874 @@
+/* .abb{
+    margin:1% 1%; 
+    width: 15%;
+    
+} 
+.ar{
+    margin-right: 90%;
+width: 8%;
+}
+.kl{
+    width: 100%;
+    margin-top: 3%;
+    background-color: rgb(236, 175, 239)!important;
+    
+}
+.kl1{
+    margin-left: 40%;
+    width: 50%;
+   
+}
+
+.rh{
+    margin-right: 4%;
+}
+.kl2{
+    margin-right: 10%;
+}
+.rt{
+margin-right: 40%;
+}
+.qe{
+   margin-right: 700%!important;
+   
+}
+.kl3{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+/* body{
+    background-color: rgb(157, 16, 16);
+}
+ */
+
+
+
+
+
+College
+/* #gallery .gallery-image{
+  width:100%;
+  height:auto;
+  padding: 5px;
+  border:2px solid #000071;
+  border-radius:5px;
+  margin-top:10px 0;
+}
+.gallery-image img {
+  width: 100%;
+  height: 211px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border:1px solid #004b84;
+  /*border-radius: 5px;*/
+
+
+
+
+
+
+
+
+body,html{
+    font-family: Roboto,sans-serif,arial;
+    background: #f0f3fa;
+}
+.width-100{
+  width: 100%;
+  float:left;
+}
+.containerr{
+   width: 0px auto;
+   margin: 0px auto;
+}
+.top-header{
+    background: #2196f3;
+    padding: 0px 0px;
+    border-bottom: 1px solid #3131315e;
+}
+    
+.width-10 img{
+  height: 600px;
+}
+
+
+
+
+  
+.news-list{
+  background: #fff;
+  color: red;
+  padding: 0px;
+  font-size: 35px;
+}
+.headquote{
+ font-size: 18px;
+ color: #fff;
+ width: 100%;
+}
+.header-menu{
+  position: relative;
+  box-shadow: 0px 2px 5px 0px  #00000036 ;
+}
+.logo{
+      width: fit-content;
+  float: left;
+}
+.main-menu{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+.main-menu a{
+    font-weight: 500;
+  color: #3a3a3a;
+  font-size: 20px;
+  text-decoration: none;
+}
+.main-menu li{
+ float: left;
+ padding: 12px 15px;
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+.width-33{
+  width: 100%;
+ 
+}
+.lates-news{
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color: #fff;
+ padding: 20px;
+ height: 400px;
+ margin-bottom: 30px;
+}
+.heading-sect{
+ width: 100%;
+ float: left;
+ border-bottom: 1px solid #cfcfcf;
+ padding-bottom: 0px;
+ margin-bottom: 15px;
+ border: 1px solid #cfcfcf;
+ padding-top: 15px;
+ padding-left: 15px;
+ background: #00aed9;
+ color: white;
+}
+.head-title{
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.latest-news-ul{
+  padding: 0px;
+  list-style: none;
+  line-height: 40px;
+  [direction="up"]
+    overflow : initial;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.event-list{
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color:#fff;
+ padding: 20px;
+ height: 400px;
+ margin-bottom: 30px;
+}
+.upcoming-event-list{
+ padding: 0px;
+ list-style: none;
+}
+.upcoming-event-list li{
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.event-data{
+ background: #03a9f4;
+ width: 30px;
+ float: left;
+ text-align: center;
+ font-size: 14px;
+ color: #fff;
+ padding: 8px;
+ margin-right: 10px;
+}
+.notice-board{
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color:#fff;
+ padding: 20px;
+ height: 400px;
+ margin-bottom: 30px;
+}
+.notice-board-list{
+ padding: 0px;
+ list-style: none;
+ line-height: 40px;
+} 
+.notice-board-list li{
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+.our-principal{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.our-principal img{
+  width: 30px;
+  height: 30px;
+}
+.useful-info-ul{
+list-style: none;
+}
+.useful-info-ul li{
+margin-bottom: 15px;
+border-bottom: 1px solid #d7d7d7;
+}
+.useful-info-ul a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+.gov-sec-style{
+margin-bottom: 30px;
+border-bottom: 1px solid #d7d7d7;
+padding-bottom: 30px;
+}
+.governor-name{
+font-size: 15px;
+color: black;
+font-weight: bold;
+padding-left: 10px;
+margin-top: 20px;
+}
+
+
+  
+
+.governor-designation{
+font-size: 15px;
+color: black;
+padding-left: 10px;
+margin-top: 6px;
+}
+.governor-img{
+width: 100%;  
+}
+.width-40{
+  width:40%;
+  float: left;
+}
+.width-60{
+  width: 60%;
+  float: left;
+}
+.about-us{
+ margin-left: 10px;
+ margin-right: 10px;
+ background-color:#fff;
+ padding: 20px;
+ height: 350px;
+ margin-bottom: 30px; 
+}
+.certificate{
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color:#fff;
+  padding: 20px;
+  height: 350px;
+  margin-bottom: 30px; 
+}
+.certificate img{
+  height: 310px;
+  width: 98%;
+}
+.gallery-head-style{
+ font-size: 28px;
+ color: #4b4848;
+ margin-bottom: 5px;
+ background: white;
+ padding: 2px 0px;
+}
+.width-25{
+ width: 100%;
+ float: left;
+}
+ .gallery-img{
+height: 250px;
+width:95%;
+ }
+ .recruiter-head-style{
+font-size: 28px;
+color: #4b4849;
+margin-bottom: 5px;
+ }
+ .recruiter-marquee{
+height: 100px;
+ }
+.recruiter-marquee img{
+  height: 80px;
+  width: 140px;
+} 
+.footer{
+background: #bad3f2;
+padding: 50px 0px;
+}
+.quicklink-heading{
+font-size: 18px;
+font-weight: bold;
+color: white;
+margin-bottom: 10px;
+}
+.quicklink-menu{
+list-style: none;
+padding-left: 10px;
+font-size: 20px;
+}
+.quicklink-menu li a{
+  color: white;
+  line-height: 2.5;
+  font-size: 20px;
+  text-decoration: none;
+}
+.get-in-touch{
+list-style: none;
+padding-left: 10px;
+}
+.get-in-touch li i{
+color: #ed372c;
+font-size: 20px;
+}
+.get-in-touch li{
+ color: white;
+  line-height: 2.5;
+  font-size: 20px;
+}
+.width-50{
+  margin-top: 2%;
+  margin-bottom: 35px;
+
+}
+/* .row img{
+width: 350px;
+height: auto;
+margin-top: 8px; */
+
+.about-us{
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+
+
+
+
+.ab1{
+  margin-left: 45%;
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.cz{
+ list-style: none;
+ margin-top: 20px;
+ font-size: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+
+.ab2{
+  margin-left: auto;
+  font-size: 45px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.doc{
+  font-size: 28px;
+ color: #fff;
+ width: 100%;
+ background: #2196f3;
+ padding: 5px 0px;
+ border-bottom: 1px solid #3131315e;
+ width: 100%;
+ margin-left: 0%;
+}
+.width-350{
+  
+  background-color:#fedada;
+  padding: 0px;
+  height: 230px;
+
+}
+.width-350 li{
+  margin-left: 2%;
+  font-size: 20px;
+
+}
+.test{
+  font-size: 28px;
+ color: #fff;
+ width: 100%;
+ background: #2196f3;
+ padding: 5px 0px;
+ border-bottom: 1px solid #3131315e;
+ width: 100%;
+ margin-left: 0%;
+ margin-top: 2%;
+}
+
+.bn img{
+  width: 300px;
+}
+.tes{
+  font-size: 30px;
+ color: #140101;
+ width: 100%;
+ background: #c7d4df;
+ padding: 5px 0px;
+ border-bottom: 1px solid #3131315e;
+ width: 80%;
+ margin-left: 0px;
+ margin-top: 2%;
+}
+.width-30{
+   
+  background-color:#fedada;
+  padding: 0px;
+  height: 680px;
+}
+.width-30 li{
+  margin-left: 2%;
+  font-size: 20px;
+}
+.mx{
+  width: 75%;
+}
+.mx li{
+  width: 75%;
+}
+
+.bv{
+  font-size: 20px;
+  width: 80%;
+}
+.xy{
+  background-color:#fedada;
+  font-size: 22px;
+}
+.zx li{
+  font-size: 25px;
+  width: 75%;
+}
+.zx{
+  background-color:#fedada;
+}
+
+
+
+
+
+
+
+
+.gallery-image{
+  width:100%;
+  height:auto;
+  padding: 5px;
+  border:2px solid #000071;
+  border-radius:5px;
+  margin-top:10px 0;
+}
+.gallery-image img {
+  width: 100%;
+  height: 211px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border:1px solid #004b84;
+  /*border-radius: 5px;*/
+   border-radius: 50px 0;
+}
+
+.mb{
+  margin-top: 2%;
+}
+.container .ty h1{
+  margin-left: 35%;
+}
+
+
+.contactt{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'popins', sans-serif;
+}
+
+
+
+.contact{
+  position: relative;
+  min-height: 10vh;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(img/IMG_20230124_075438.jpg);
+  background-size: cover;
+
+}
+.contact .content{
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+
+}
+.contact .content p{
+  font-weight: 300;
+  color: #fff;
+}
+
+.contaner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+ 
+ } 
+.contaner .nj{
+  width: 100%;
+}
+.contaner .nj .t{
+  position: relative;
+  padding: 20px 0px;
+  display: flex;
+  width: 100%;
+}
+
+.contaner .nj  .icon{
+  width: 26px;
+  height: 25px;
+  background: #fff;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30%;
+  font-size: 22px;
+}
+.contaner .nj .b  .t{
+ 
+  margin-left: px;
+  font-size: 24px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contaner .nj .b  .t h3{
+  font-weight: 500;
+  color: #03a9f4;
+
+}
+/* .rw{
+  width: 30%;
+  height: 5%;
+  padding: 40px;
+  background: #fff;
+} */
+.rw h2{
+  font-size: 30px;
+  color:#fff;
+  font-weight: 500;
+}
+.rw .fk{
+  /* position: relative; */
+  width: 100%;
+  margin-top: 20px;
+}
+.rw .fk input{
+  width: 100%;
+  padding: 5px 0px;
+  font-size: 16px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  
+}
+.rw .fk spam{
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+
+
+
+.card-body{
+  margin: 4px 4px;
+  background: url(img/IMG_20230124_075438.jpg);
+
+}
+.card-body li{
+  color: #fff;
+}
+.rkkkk h2{
+  color: #fff;
+}
+
+.mv img{
+ width: 100%;
+ margin-left: 8%;
+
+}
+.cz p{
+  margin-right: 10%;
+}
+.m{
+  margin-left: 3%;
+}
+.jk img{
+  width: 100%;
+  padding: 1%  0;
+  margin-right: 18%;
+  margin-bottom: 4%;
+}
+
+}
+.jk h1{
+  margin-top: 2%;
+  margin: 20%;
+}
+.jk .ca{
+  margin-top: 15%;
+  margin-left: 30%;
+}
+.jk .ca h2{
+  color: #fff;
+}
+.ok .cz img{
+  width: 100%;
+}
+.ok .ca {
+  margin-top: 15%;
+  margin-right: 30%;
+}
+.ok .ca h2{
+  color: #fff;
+}
+.br{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 17%;
+  padding-right: 30px;
+}
+.za{
+  background: url(img/IMG_20230124_075438.jpg);
+}
+.br label{
+  color: #fff;
+}
+.br h2{
+  color: #fff;
+}
+.sd{
+  margin-left: 30%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hadr{
+  top: 0;
+  left: 0;
+  background: #333;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1%;
+}
+
+.hadr .nbar a{
+  color: #fff;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.hadr .nbar a:hover{
+  color: var(orange);
+}
+
+*{
+  font-family:'Nuniti',sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2s linear;
+}
+
+
+:root{
+  orange:#ffa500
+}
+
+
+*::selection{
+  background: var(--orange);
+  color: #fff;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+nev baerrrrr
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="main">
+  <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
