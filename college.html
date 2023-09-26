@@ -4,30 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link href="lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css"/>
-   
+   <style>
+    html,body{
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    .col-md-4{
+        padding: 0px;
+    }
+   </style>
 
 </head>
 <body>
-    
+   
 
 
 
 
-    <section>
+    <!-- <section>
         <div class="width-100 top-header">
-            <div class="contanierr">
-              <div class="width-100">
-                  <b class="news-list"> News:</b>
-                  <marquee class="headquote">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
-              </div>
+            <div class="contanier">
+                <div class="row">
+                    <div class="col-md-1">
+                        <b class="news-list"> News:</b>
+                    </div>
+                    <div class="col-md">
+                        <div class="width-100">
+                  
+                            
+                        </div>
+                    </div>    
+                </div>
             </div>
           </div> 
 
+    </section> -->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1">
+                    <b class="news-list"> News:</b>
+                </div>
+                <div class="col-md-11">
+                    <marquee class="pt-2">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
+                </div>
+            </div>
+        </div>
     </section>
 
 
@@ -36,85 +64,66 @@
 
 
 
-   <section>
-    <div class="width-100  header-menu">
-        <div class="contanier">
-            <div class="logo"><img src="img/loko.png"></div>
-        </div>     
-    <div class="hadr">
-        <nav class="nbar">
-            <a href="college.html">Home</a>
-            <a href="about.html">About US</a>
-            <a href="college.html">Admission</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="courses.html">Courses</a>
-            <a href="contact-us.html">Contact Us</a>
-        </nav>
-    </div>
-   </section>
 
 
 
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: red;">
+        <a class="navbar-brand" href="#"><img src="img/loko.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+              <li><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="about.html">About-US</a>
+     </li>
+     <li class="nav-item">
+         <a class="nav-link" href="admission.html">Admission</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="courses.html">Courses</a>
+    </li>
+    <li class="nav-item">
+         <a class="nav-link" href="contact-us.html">Contact-Us</a>
+     </li>
+  </ul>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-
-
-
-
-    <section>
+   <!-- <section>
+       <div class="containe">
         <div class="width-100  header-menu">
             <div class="contanier">
                 <div class="logo"><img src="img/loko.png"></div>
-                <ul class="main-menu">
-                   
-                  <div id="mySidenav" class="sidenav">
-                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <li><a href="college.html">Home</a></li>
-                       <li><a href="about.html">About US</a></li>
-                     <li><a href="college.html">Admission</a></li>
-                      <li><a href="gallery.html">Gallery</a></li>
-                     <li><a href="courses.html">Courses</a></li>
-                      <li><a href="contact-us.html">Contact Us</a></li>
-                    </div>
+            </div>  
+            <div class="main-menu">
+                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#"></a>
+                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                       </button>
       
-                 <div id="main">
-        
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-      </div>
-
-
-                </ul>
-            </div>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
         </div>
-    </section> 
+      </nav>
+            </div>
+       </div>
+   </section> -->
 
 
-
- -->
 
 
 
@@ -142,14 +151,14 @@
                             </div>
                             <marquee direction="up">
                                 <ul class="latest-news-ul">
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024 <img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
-                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="..."</li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024 <img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
+                                    <li>31 mar 2024 ph d merit list parth 01_16 feb 2024<img src="img/new.jpg"></li>
                                 </ul>
                             </marquee>
                         </div>
@@ -179,10 +188,10 @@
                                 <h3 class="head-title">NOtice</h3>
                             </div>
                             <ul class="notice-board-list">
-                               <li><img src="..."> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
-                               <li><img src="..."> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
-                               <li><img src="..."> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
-                               <li><img src="..."> Participation in Climate Correction Day (CCD) challenge</li>
+                               <li><img src="img/new.jpg"> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
+                               <li><img src="img/new.jpg"> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
+                               <li><img src="img/new.jpg"> Participation in Climate Correction Day (CCD) challenge for Mission LIFE</li>
+                               <li><img src="img/new.jpg"> Participation in Climate Correction Day (CCD) challenge</li>
                                
         
                             </ul>
@@ -205,10 +214,10 @@
                                 <h3 class="head-title">Usefull Information</h3>
                             </div>
                                 <ul class="useful-info-ul">
-                                  <li><img src="..."><a href="#">Online Service</a></li>
-                                  <li><img src="..."><a href="#">Online Result</a></li>
-                                  <li><img src="..."><a href="#">Exam Time Table</a></li>
-                                  <li><img src="..."><a href="#">Tenders</a></li>
+                                  <li><img src="img/new.jpg"><a href="#">Online Service</a></li>
+                                  <li><img src="img/new.jpg"><a href="#">Online Result</a></li>
+                                  <li><img src="img/new.jpg"><a href="#">Exam Time Table</a></li>
+                                  <li><img src="img/new.jpg"><a href="#">Tenders</a></li>
                                 </ul>
                         </div>
                     </div>
@@ -222,10 +231,19 @@
                             <div class="width-100 gov-sec-style">
                                 <div class="width-40">
                                     <img class="governor-img" src="img/swr1.jpg">
+                                    <div class="im">
+                                        <img class="governor-img" src="img/swr1.jpg">
+                                    </div>
+                                    
                                 </div>
                                 <div class="width-60">
                                     <p class="governor-name">Dr.Radha Krishna</p>
                                     <p class="governor-designation">Principal, My college</p>
+                                   <div class="im">
+                                    <p class="governor-name">Dr.Radha Krishna</p>
+                                   
+                                   </div>
+                                   <p class="governor-designation">Principal, My college</p>
                                 </div>
                                 
                             </div>
@@ -246,6 +264,99 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+    
+   <section>
+    <div class="container">
+       <div class="ffh"> <h1>OUR SCHOOL MAGXINE</h1></div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="cad-body">
+                       <div class="row">
+                        <div class="col-sm-8">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <h3>Dav Darpan Conferences</h3>
+                            <p class="card-text">With supporting text below as a naturcontent.</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <div class="col-sm-4">
+                          <img src="img/mag1.webp">
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+              </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="cad-body">
+                       <div class="row">
+                        <div class="col-sm-8">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <h3>Dav Darpan Conferences</h3>
+                            <p class="card-text">With supporting text below as a naturcontent.</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <div class="col-sm-4">
+                          <img src="img/mag1.webp">
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+         </div>
+    </div>
+   </div>
+  </section>
+  <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                  <div class="cad-body">
+                     <div class="row">
+                      <div class="col-sm-8">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <h3>Dav Darpan Conferences</h3>
+                          <p class="card-text">With supporting text below as a naturcontent.</p>
+                          <a href="#">Continue reading</a>
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="img/mag1.webp">
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="cad-body">
+                       <div class="row">
+                        <div class="col-sm-8">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <h3>Dav Darpan Conferences</h3>
+                            <p class="card-text">With supporting text below as a naturcontent.</p>
+                            <a href="#">Continue reading</a>
+                        </div>
+                        <div class="col-sm-4">
+                          <img src="img/mag1.webp">
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+    </div>
+  </section>
 
 
 
@@ -379,9 +490,9 @@
         <div class="width-100 margin-top-50 footer">
             <div class="container">
                <div class="row">
-                <div class="col-md-3">
+                  <div class="col-md-2">
                     <div class="width-25">
-                        <h1 class=" quicklink-heading">Quick Links</h1>
+                        <h1 class=" quicklink-heading">QUICK LINKS</h1>
                          <ul class="quicklink-menu">
                          <li><a href="#">Home</a></li>
                          <li><a href="about.html">About us</a></li>
@@ -389,10 +500,10 @@
                          <li><a href="contact-us.html">Contact Us</a></li>
                          </ul>
                       </div>
-                </div>
+                  </div>
                    <div class="col-md-3">
                        <div class="width-25">
-                         <h1 class=" quicklink-heading">STUDENT Section</h1>
+                         <h1 class=" quicklink-heading">STUDENT SECTION</h1>
                          <ul class="quicklink-menu">
                              <li><a href="#">Result</a></li>
                              <li><a href="#">Pay Fee</a></li>
@@ -403,7 +514,7 @@
                    </div>
                     <div class="col-md-3">
                         <div class="width-25">
-                            <h1 class=" quicklink-heading">INFORMATION Link</h1>
+                            <h1 class=" quicklink-heading">INFORMATION LINK</h1>
                             <ul class="quicklink-menu">
                                 <li><a href="#">News</a></li>
                                 <li><a href="#">R & D Policy</a></li>
@@ -412,9 +523,9 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="width-25">
-                            <h2 class=" quicklink-heading">GET IN TOUCH </h2>
+                            <h1 class=" quicklink-heading">GET IN TOUCH </h1>
                             <ul class="get-in-touch">
                                 <li>E-MALL:<a href="#"> rsharma3804 @gmail.com</a></li>
                                 <li>WHATS-APP: + 9102129030</li>
@@ -427,22 +538,30 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="col-md-6">
+                        <h3>Copyright 2023; Designed by RAHUL</h3>
+                       </div>
+                       <div class="col-md-6">
+                        <h3></h3>
+                       </div>
                </div>
             </div>
         </div>
-    </section>
+    </section> 
 
 
 
 
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
-
-
-
-
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/ 2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
 
     <script>
         function openNav() {
@@ -454,12 +573,11 @@
           document.getElementById("mySidenav").style.width = "0";
           document.getElementById("main").style.marginLeft= "0";
         }
-        </script>
+   </script>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+     
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
  <script src="lightbox.js"></script>
