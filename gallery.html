@@ -4,43 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    <link href="lightbox.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-
+    <style>
+      html,body{
+          max-width: 100%;
+          overflow-x: hidden;
+      }
+      .col-md-4{
+          padding: 0px;
+      }
+     </style>
     <link rel="stylesheet" href="style.css"/>
 
 </head>
 <body>
-    <section>
-        <div class="width-100 top-header">
-            <div class="contanier">
-              <div class="width-100">
-                  <b class="news-list"> News:</b>
-                  <marquee class="headquote">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
-              </div>
+  <section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+                <b class="news-list"> News:</b>
             </div>
-        </div> 
-    </section>
-
-
-    
-    <section>
-        <div class="width-100  header-menu">
-            <div class="contanier">
-                <div class="logo"><img src="img/loko.png"></div>
-                <ul class="main-menu">
-                    <li><a href="college.html">Home</a></li>
-                    <li><a href="about.html">About US</a></li>
-                    <li><a href="admission.html">Admission</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
-    
-                </ul>
+            <div class="col-md-11">
+                <marquee class="pt-2">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+ <nav class="navbar navbar-expand-lg navbar-light" style="background: red;">
+    <a class="navbar-brand" href="#"><img src="img/loko.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mx-auto">
+       <li class="nav-item active">
+         <li><a class="nav-link" href="college.html">Home <span class="sr-only">(current)</span></a></li>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" href="about.html">About-US</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="admission.html">Admission</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="courses.html">Courses</a>
+       </li>
+       <li class="nav-item">
+          <a class="nav-link" href="contact-us.html">Contact-Us</a>
+       </li>
+      </ul>
+    </div>
+ </nav>
 
 
 
@@ -202,16 +231,19 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
 
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
 
  <script src="wow.min.js"></script>
  <script src="lightbox.js"></script>
