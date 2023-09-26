@@ -4,41 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    
     <link rel="stylesheet" href="style.css">
+    <style>
+      html,body{
+          max-width: 100%;
+          overflow-x: hidden;
+      }
+      .col-md-4{
+          padding: 0px;
+      }
+     </style>
 
 </head>
 <body>
 
 
 
-<section>
-  <div class="width-100 top-header">
-      <div class="contanierr">
-        <div class="width-100">
-            <b class="news-list"> News:</b>
-            <marquee class="headquote">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
+  <section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1">
+                <b class="news-list"> News:</b>
+            </div>
+            <div class="col-md-11">
+                <marquee class="pt-2">My College: Intelligence plus curisoity-that is the root of true education.</marquee>
+            </div>
         </div>
-      </div>
-    </div> 
-
+    </div>
 </section>
-<section>
-  <div class="width-100  header-menu">
-      <div class="contanier">
-          <div class="logo"><img src="img/loko.png"></div>
-          <ul class="main-menu">
-              <li><a href="college.html">Home</a></li>
-              <li><a href="about.html">About US</a></li>
-              <li><a href="admission.html">Admission</a></li>
-              <li><a href="gallery.html">Gallery</a></li>
-              <li><a href="college.html">Courses</a></li>
-              <li><a href="contact-us.html">Contact Us</a></li>
 
-          </ul>
-      </div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background: red;">
+  <a class="navbar-brand" href="#"><img src="img/loko.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+        <li><a class="nav-link" href="college.html">Home <span class="sr-only">(current)</span></a></li>
+</li>
+<li class="nav-item">
+ <a class="nav-link" href="about.html">About-US</a>
+</li>
+<li class="nav-item">
+   <a class="nav-link" href="admission.html">Admission</a>
+</li>
+<li class="nav-item">
+   <a class="nav-link" href="gallery.html">Gallery</a>
+</li>
+<li class="nav-item">
+   <a class="nav-link" href="courses.html">Courses</a>
+</li>
+<li class="nav-item">
+   <a class="nav-link" href="contact-us.html">Contact-Us</a>
+</li>
+</ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
   </div>
-</section>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section>
   <div class="width-100">
       <img class="slider-width" src="img/dav ban.jpg">
@@ -55,10 +105,11 @@
       <div class="row">
         <div class="col-md-6">
           <h1>Science</h1>
-          <img src="img/background.jpg">
+          <div class="card"><img src="img/background.jpg"></div>
         </div>
         <div class="col-md-6">
-          <div class="ca" style="width: 18rem;">
+          <div class="ca" style="width: 25rem;">
+            <div class="card" >
                        <div class="card-body">
                          <h2 class="card-title">Science Stream</h2>
                          <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -75,6 +126,7 @@
                          <a href="contact-us.html" class="card-link">contact</a>
                        </div>
                    </div>
+          </div>
         </div>
       </div>
     </div>
@@ -92,6 +144,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="ca" style="width: 25rem;">
+            <div class="card">
             <div class="card-body">
               <h2 class="card-title">Commerce Stream</h2>
               <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -101,12 +154,15 @@
                 </ul>
                 <a href="contact-us.html" class="card-link">contact</a>
             </div>
+            </div>
         </div>
         </div>
         <div class="col-md-6">
           <div class="cz">
             <h1>Commerce</h1>
+             <div class="card">
               <img src="img/banner.png" >
+             </div>
           </div>
         </div>
       </div>
@@ -127,7 +183,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1>Arts </h1>
-          <img src="img/background.jpg">
+          <div class="card"><img src="img/background.jpg"></div>
         </div>
         <div class="col-md-6">
           <div class="ca" style="width: 20rem;">
@@ -158,6 +214,12 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+
+
+
+
 </body>
 </html>
