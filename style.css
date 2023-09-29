@@ -79,7 +79,7 @@ text-decoration: none;
 .nav-link{
   font-size: 24px;
 }
-
+ 
 
 
 
@@ -168,7 +168,7 @@ text-decoration: none;
   font-size: 16px;
   padding-bottom: 5px;
 }
-/* .latest-news-ul{
+ .latest-news-ul{
   padding: 0px;
   list-style: none;
   line-height: 40px;
@@ -176,7 +176,7 @@ text-decoration: none;
   overflow : initial;
   overflow-y: hidden;
   white-space: nowrap;
-} */
+} 
 .latest-news-ul-li{
   width: 100%;
   float: left;
@@ -196,7 +196,18 @@ text-decoration: none;
 .upcoming-event-list{
  padding: 0px;
  list-style: none;
-}
+} 
+
+
+
+
+
+
+
+
+
+
+
 .upcoming-event-list li{
     width: 100%;
     float: left;
@@ -276,7 +287,7 @@ margin-top: 20px;
 }
 
 
-
+ 
 
 
 
@@ -463,7 +474,7 @@ margin-top: 20px;
   }
 }
 
-
+ 
 
 
 
@@ -618,16 +629,13 @@ font-size: 20px;
   margin-bottom: 35px;
 
 }
-/* .row img{
-width: 350px;
-height: auto;
-margin-top: 8px; */
+
 
 .about-us{
   margin-left: 0px;
   margin-right: 10px;
 }
-
+ 
 
 
 
@@ -742,7 +750,13 @@ margin-top: 8px; */
 }
 .width-60 .im p{
   margin-top: 15%;
-}
+} 
+
+
+
+
+
+
 
 
 
@@ -750,7 +764,6 @@ margin-top: 8px; */
   width:100%;
   height:auto;
   padding: 5px;
-  /* border:2px solid #000071; */
   border-radius:5px;
   margin-top:10px 0;
 }
@@ -760,7 +773,6 @@ margin-top: 8px; */
   margin-bottom: 20px;
   padding: 5px;
   border:1px solid #004b84;
-  /*border-radius: 5px;*/
    border-radius: 50px 0;
 }
 
@@ -847,20 +859,20 @@ margin-top: 8px; */
   font-weight: 500;
   color: #03a9f4;
 
-}
-/* .rw{
-  width: 30%;
-  height: 5%;
-  padding: 40px;
-  background: #fff;
-} */
+} 
+
+
+
+
+
+
+
 .rw h2{
   font-size: 30px;
   color:#fff;
   font-weight: 500;
 }
 .rw .fk{
-  /* position: relative; */
   width: 100%;
   margin-top: 20px;
 }
@@ -903,19 +915,8 @@ margin-top: 8px; */
 .ow h3{
   margin-bottom: 3%;
 }
+ 
 
-/* .sub{
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(9,30,0.7) , rgba(4,9,30,0.7)), url(img/background.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-}
-.sub-header h1{
-  margin-top: 100px;
-} */
 
 
 
@@ -1024,12 +1025,7 @@ margin-top: 8px; */
   margin-top: 40px;
   margin-right: 30%;
 }
-/* .ok .ca h1{
-  margin-top: 50px;
-} */
-/* .ok .ca .card{
-  margin-top: -60px;
-} */
+
 .ok .ca h2{
   color: #fff;
 }
@@ -1053,7 +1049,7 @@ margin-top: 8px; */
   
 }
 
-
+ 
 
 
 
@@ -1072,9 +1068,11 @@ margin-top: 8px; */
 .rtt h1{
   margin-left: 35%;
 }
+
 .rtt p{
   margin-left: 30%;
 }
+
 @media(max-width:700px){
   .rtt p{
      margin-left: 20%;
@@ -1086,7 +1084,7 @@ margin-top: 8px; */
     padding: 18px;
   }
 }
-
+ 
 
 
 
@@ -1095,15 +1093,13 @@ margin-top: 8px; */
 
 
 /* pic */
-/* 
-/* The grid: Four equal columns that floats next to each other */
+ 
 .columnx {
   float: left;
   width: 25%;
   padding: 10px;
 }
 
-/* Style the images inside the grid */
 .columnx img {
   opacity: 0.8; 
   cursor: pointer; 
@@ -1111,22 +1107,22 @@ margin-top: 8px; */
 
 .columnx img:hover {
   opacity: 1;
-}
+} 
 
-/* Clear floats after the columns */
-.row:after {
+/* .row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
-/* The expanding image container */
+
+
+/* 
 .container {
   position: relative;
   display: none;
-}
+}  */
 
-/* Expanding image text */
 #imgtext {
   position: absolute;
   bottom: 15px;
@@ -1135,7 +1131,6 @@ margin-top: 8px; */
   font-size: 20px;
 }
 
-/* Closable button inside the expanded image */
 .closebtn {
   position: absolute;
   top: 10px;
@@ -1143,4 +1138,4 @@ margin-top: 8px; */
   color: white;
   font-size: 35px;
   cursor: pointer;
-} */
+}  
