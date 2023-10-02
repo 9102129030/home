@@ -75,6 +75,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="admission.html">Admission</a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="fee.html">Fees Schedule</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="eline.html">Guidelines</a>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
@@ -398,8 +407,22 @@
 
 
 
-
-
+   <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <video width="100%" controls id="myvideo">
+                    <source src="video/mixkit-students-walking-in-a-university-4519-medium.mp4" type="video/mp4">
+                    <source src="rain.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                  </video>
+            </div>
+            <div class="col-md-3">
+                <img src="img/th (1).jpeg" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+   </section>
 
 
 
@@ -639,7 +662,7 @@
             <div class="facilities-col">
                 <img src="img/library.png">
                 <h3>World classLibrary</h3>
-                <p>A library is a place where books and sources of information are stored. They make it easier for
+                <p style="text-align: justify;">A library is a place where books and sources of information are stored. They make it easier for
                     people to get access to them for various purposes. Libraries are very helpful and economical too.
                     They include books, magazines, newspapers, DVDs, manuscripts and more. In other words, they are an
                     all-encompassing source of information.</p>
@@ -647,14 +670,14 @@
             <div class="facilities-col">
                 <img src="img/basketball.png">
                 <h3>Largest Play Ground</h3>
-                <p>We see the prevalence of FOMO or the Fear Of Missing Out almost everywhere. It is a feeling of
+                <p style="text-align: justify;">We see the prevalence of FOMO or the Fear Of Missing Out almost everywhere. It is a feeling of
                     anxiety that one experiences when they perceive that others are having a better time, experience, or
                     opportunity than them.</p>
             </div>
             <div class="facilities-col">
                 <img src="img/cafeteria.png">
                 <h3>Testy and Healthy Food</h3>
-                <p>Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein
+                <p style="text-align: justify;">Eating a wide variety of nutritious foods, including fruit, vegetables, nuts, seeds, and lean protein
                     can help support your overall health. Many foods are both healthy and tasty. By filling your plate
                     with fruits, vegetables, quality protein sources, and other whole foods, you’ll have meals that are
                     colorful, versatile, and good for you.</p>
@@ -682,8 +705,39 @@
                                     <h5 class="card-title"> School</h5>
                                     <h3>Back to School</h3>
                                     <p class="card-text">Take your child to visit the new school or classroom before the
-                                        first day of school. </p>
-                                    <a href="#">Order Now</a>
+                                        first day of school. The first day of school is verry spaciel for a child.</p>
+                                    
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="..." alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>E-male</b></label>
+      <input type="text" placeholder="Enter Password" name="E-male" required>
+
+      <label for="uname"><b>Address</b></label>
+      <input type="text" placeholder="Address" name="uname" required>
+        
+      <button type="submit">Order Now</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
                                 </div>
                                 <div class="col-sm-4">
                                     <img src="img/3.jpg">
@@ -701,7 +755,38 @@
                                     <h3>Focuse on your gole</h3>
                                     <p class="card-text">Focus is a valuable ability that can help individuals complete
                                         their tasks at work and promote productivity in their professional life. </p>
-                                    <a href="#">Order Now</a>
+                                                                     
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="..." alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>E-male</b></label>
+      <input type="text" placeholder="Enter Password" name="E-male" required>
+
+      <label for="uname"><b>Address</b></label>
+      <input type="text" placeholder="Address" name="uname" required>
+        
+      <button type="submit">Order Now</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
                                 </div>
                                 <div class="col-sm-4">
                                     <img src="img/mag2.jpg">
@@ -725,7 +810,38 @@
                                     <h5 class="card-title">Success</h5>
                                     <h3>How to get success</h3>
                                     <p class="card-text">Success is the state or condition of meeting a defined range of expectations. It may be viewed as the opposite of failure. The criteria for success depend on context.</p>
-                                    <a href="#">Order Now</a>
+                                                                        
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="..." alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>E-male</b></label>
+      <input type="text" placeholder="Enter Password" name="E-male" required>
+
+      <label for="uname"><b>Address</b></label>
+      <input type="text" placeholder="Address" name="uname" required>
+        
+      <button type="submit">Order Now</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
                                 </div>
                                 <div class="col-sm-4">
                                     <img src="img/succ.jpeg">
@@ -742,7 +858,38 @@
                                     <h5 class="card-title">My School</h5>
                                     <h3>New Beginnings</h3>
                                     <p class="card-text">My school is a place where I get educated; learn new subjects under the guidance of trained and skilled teachers. I study at a school that is near my home.</p>
-                                    <a href="#">Order Now</a>
+                                                                        
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Order Now</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="..." alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>E-male</b></label>
+      <input type="text" placeholder="Enter Password" name="E-male" required>
+
+      <label for="uname"><b>Address</b></label>
+      <input type="text" placeholder="Address" name="uname" required>
+        
+      <button type="submit">Order Now</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    </div>
+  </form>
+</div>
                                 </div>
                                 <div class="col-sm-4">
                                     <img src="img/mag.jpg">
@@ -791,9 +938,9 @@
                     </div>
                     <div class="col-md-3">
                         <div class="gallery-image">
-                            <a href="img/achi1.jpg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <a href="img/class.webp" data-lightbox="image-1" data-title="" style="color:black;">
                                 <center style="font-size: 22px;color: #004b84;font-weight: 600;"></center><img
-                                    src="img/achi1.jpg" alt="gallery1" width="100%">
+                                    src="img/class.webp" alt="gallery1" width="100%"> Class study
                             </a>
                         </div>
                     </div>
@@ -817,15 +964,15 @@
                         <div class="gallery-image">
                             <a href="img/lab1.jpg" data-lightbox="image-1" data-title="" style="color:black;">
                                 <center style="font-size: 22px;color: #004b84;font-weight: 600;"></center><img
-                                    src="img/lab1.jpg" alt="gallery1" width="100%">
+                                    src="img/lab1.jpg" alt="gallery1" width="100%">Library
                             </a>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="gallery-image">
-                            <a href="img/lab2.jpg" data-lightbox="image-1" data-title="" style="color:black;">
+                            <a href="img/computer.jpg" data-lightbox="image-1" data-title="" style="color:black;">
                                 <center style="font-size: 22px;color: #004b84;font-weight: 600;"></center><img
-                                    src="img/lab2.jpg" alt="gallery1" width="100%">
+                                    src="img/computer.jpg" alt="gallery1" width="100%"> Computer class
                             </a>
                         </div>
                     </div>
@@ -833,7 +980,7 @@
                         <div class="gallery-image">
                             <a href="img/lab3.jpg" data-lightbox="image-1" data-title="" style="color:black;">
                                 <center style="font-size: 22px;color: #004b84;font-weight: 600;"></center><img
-                                    src="img/lab3.jpg" alt="gallery1" width="100%">
+                                    src="img/lab3.jpg" alt="gallery1" width="100%">Library Class
                             </a>
                         </div>
                     </div>
@@ -841,7 +988,7 @@
                         <div class="gallery-image">
                             <a href="img/lad4.webp" data-lightbox="image-1" data-title="" style="color:black;">
                                 <center style="font-size: 22px;color: #004b84;font-weight: 600;"></center><img
-                                    src="img/lad4.webp" alt="gallery1" width="100%">
+                                    src="img/lad4.webp" alt="gallery1" width="100%"> Library Table
                             </a>
                         </div>
                     </div>
@@ -1131,6 +1278,34 @@
 
     <script src="lightbox.js"></script>
 
+    <!-- modal -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+
+
+
+<!-- video -->
+<script>
+    var elem = document.getElementById("myvideo");
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+    </script>
 </body>
 
 </html>
