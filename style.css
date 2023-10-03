@@ -1058,9 +1058,23 @@ font-size: 20px;
 /* <footer> */
 
 .yy{
-  background: #004b84;
+  background: #f01e1ef5;
 }
+.yy h3{
+  color: #140101;
+}
+.yy .media-body{
+  font-size: 30px;
+  color: #fff;
+}
+.yy ul li{
+  font-size: 30px;
+  color: black;
+}
+.yy .container a{
+  font-size: 18px;
 
+}
 
 
 
@@ -1163,7 +1177,7 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 10%;
+
 }
 
 button:hover {
