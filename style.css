@@ -918,12 +918,13 @@ font-size: 20px;
   margin-bottom: 2%;
     
 }
-.card{
+.carod{
   padding: 20px;
   background: #f058436e;
-  box-shadow: 0px 0px 7px -4px red
+  box-shadow: 0px 0px 7px -4px red;
+  border-radius:20px ;
 }
-.card:hover{
+.carod:hover{
     box-shadow: 0 0 20px 0px rgba(238, 6, 6, 0.948);
 }
 
@@ -935,8 +936,22 @@ font-size: 20px;
   margin-bottom: 3%;
 }
  
-
-
+.pho h4{
+ color: #fff;
+ margin-top: 10%;
+}
+.pho p{
+  color: #fff;
+}
+.pho{
+  padding: 20px;
+}
+.mob{
+  padding: 20px;
+}
+.wall{
+  padding: 20px;
+}
 
 
 
@@ -970,13 +985,12 @@ font-size: 20px;
 
 
 
-
-.card-body{
-  margin: 4px 4px;
+.card-boody{
+  margin: 4px 2px;
   background: url(img/IMG_20230124_075438.jpg);
 
 }
-.card-body li{
+.card-boody li{
   color: #fff;
 }
 .rkkkk h2{
@@ -1112,7 +1126,7 @@ font-size: 20px;
 }
 
 .rtt p{
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 @media(max-width:700px){
