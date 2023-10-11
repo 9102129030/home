@@ -4,7 +4,7 @@
 
 body,html{
     font-family: Roboto,sans-serif,arial;
-    background: #f0f3fa;
+   background-color: lightblue;
     
 }
 .width-100{
@@ -30,6 +30,9 @@ body,html{
   height: auto;
 }
 
+.blue{
+  background: #2196f3;
+}
 
 
 .po{
@@ -356,6 +359,7 @@ margin-top: 20px;
 @media(max-width:700px){
   .rwm{
      flex-direction: column;
+     padding: 4px;
   }
 }
 
@@ -958,9 +962,13 @@ font-size: 20px;
 
 
 
-
+.wr h4{
+  padding-top: 4px;
+  padding-left: 17px;
+}
 .wr:hover{
   box-shadow: 0 0 20px 0px rgba(238, 6, 6, 0.948);
+  border-radius: 5%;
 }
 .faq-main{
   padding: 18px;
@@ -971,7 +979,11 @@ font-size: 20px;
 }
 
 
-
+@media(max-width:320px){
+  .prog h1{
+    font-size: 30px;
+  }
+}
 
 
 
@@ -1095,7 +1107,7 @@ font-size: 20px;
 /* <footer> */
 
 .yy{
-  background: #f01e1ef5;
+  background: #f133b256;
   margin-bottom: 1%;
 }
 .yy .social-icons a{
@@ -1106,11 +1118,11 @@ font-size: 20px;
   color: #140101;
 }
 .yy .media-body{
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
 }
 .yy ul li{
-  font-size: 30px;
+  font-size: 20px;
   color: black;
 }
 .yy .container a{
@@ -1374,10 +1386,18 @@ span.psw {
 
 
 
+.san img{
+filter: grayscale(200%);
+transition: filter 300ms;
+}
+.san img:is(:hover,:focus){
+  filter: grayscale(0%);
+}
 
 
-
-
+.stafi{
+  
+}
 
 
 
